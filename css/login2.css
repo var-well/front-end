@@ -1,0 +1,57 @@
+/* Common */
+
+body {
+  background: #f8f9fa;
+}
+
+.section .container .btn-align {
+  text-align: center !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Common end */
+
+/* Header */
+
+header .container {
+    padding: 0px;
+}
+
+header .container .nav-title {
+  font-size: 30px;
+  padding-right: 24px;
+}
+
+header .container .text-font {
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 12px;
+  margin: 4px;
+}
+/* Header end */
+
+/* Section */
+
+.section {
+  position : relative;
+}
+
+
+/* Section end */
+
+/* Footer */
+
+.section .copy-right {
+    padding : 15px 0;
+    border-top : 1px solid #eee;
+    color : #b2b2b2;
+    display: block;
+    padding-left: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Footer end */
