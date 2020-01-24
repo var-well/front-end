@@ -1,0 +1,125 @@
+/* Common */
+
+body {
+  background: #f8f9fa;
+}
+
+.section .container .btn-align {
+  text-align: center !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Common end */
+
+/* Header */
+
+header .container {
+    padding: 0px;
+}
+
+header .container .nav-title {
+  font-size: 30px;
+  padding-right: 24px;
+}
+
+header .container .text-font {
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 12px;
+  margin: 4px;
+}
+/* Header end */
+
+/* Section */
+
+.section {
+  position : relative;
+}
+
+.section .main-brand {
+  text-align: center;
+}
+
+.section .main-brand h1 {
+  font-size: 50px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.section .text-layout {
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom:4px;
+}
+
+.section .input-layout {
+  text-align: left;
+}
+
+.section .input-size {
+  width:100%;
+  height: 55px;
+  padding-left: 16px;
+}
+
+.section .input-size-30 {
+  width:32%;
+  height: 50px;
+  margin: 1px 0px 1px 0px;
+  padding-left: 12px;
+}
+
+.section .set-layout {
+  margin-bottom: 14px;
+}
+
+.section .input-size-75 {
+  width:73.4%;
+  height: 50px;
+  margin: 1px 0px 1px 0px;
+  padding-left: 12px;
+}
+
+.section .phone-button {
+  height: 50px;
+  color: white;
+  background: #00BFFF;
+  border: none;
+  margin-left: 8px;
+}
+
+.section .phone-layout {
+  margin-bottom: 16px;
+}
+
+.section .signup-layout {
+  margin-top: 30px;
+}
+
+.signup-layout button {
+  background: #00BFFF;
+  border: none;
+  color: white;
+  font-size:20px;
+  font-weight: 700;
+}
+
+
+/* Section end */
+
+/* Footer */
+
+.section .copy-right {
+    padding : 15px 0;
+    border-top : 1px solid #eee;
+    color : #b2b2b2;
+    display: block;
+    padding-left: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Footer end */
