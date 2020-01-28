@@ -42,16 +42,67 @@ header .container .text-font {
 
 .section .top-tag {
   background:  #f8f9fa;
+  margin: 10px 0px 10px 0px;
+  border-bottom: 2px solid lightgray;
+}
+
+.top-tag .tag-layout {
+  font-size: 13px;
+  font-weight: 700;
+  border-bottom: 2px solid;
+  padding-bottom: 1.5px;
   margin: 0px;
 }
 
-.top-tag .under-line {
-  padding-bottom: 2px;
+.top-tag .tag-margin {
+  height: 18px;
+  width: 100px;
+  background: white;
+
+}
+
+.label-area {
+  text-align: left;
 }
 
 .section .find-box {
   padding:30px;
-  border:1px solid lightgray;
+  background: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  height: 180px;
+}
+
+.find-box .explain-text {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.section .input-label {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.section .input-box {
+  width: 180px;
+  height: 22px;
+  display: inline-block;
+  margin: 5px;
+  font-size: 11px;
+}
+
+.section .input-box-layout {
+  margin: 16px 0px 0px 15px;
+}
+
+.section .next-btn-layout {
+  text-align: center;
+  margin: 10px 10px 20px 10px;
+}
+
+.next-btn-layout .next-btn {
+  font-size: 12px;
+  height: 29px;
 }
 /* Section end */
 
