@@ -16,6 +16,8 @@
 
     <!-- javaScript file -->
 
+    <script src="js/private.js"></script>
+
 
 
   </head>
@@ -103,10 +105,10 @@
             <div class="form-layout">
               <div class="custom-control custom-checkbox">
                 <div class="check-form" style="text-align:left;">
-                  <input type="checkbox" class="custom-control-input" id="customCheck1">
-                  <label class="custom-control-label" for="customCheck1" style="text-align:left; margin-left:13px;">
-                    이용자 약관에 동의합니다.
-                  </label>
+                  <div class="custom-control custom-checkbox custom-control-inline">
+                    <input name="check1" type="checkbox" class="custom-control-input" id="defaultInline1">
+                    <label class="custom-control-label" for="defaultInline1">이용자 약관에 동의합니다.</label>
+                  </div>
                 </div>
               </div>
             </div>
@@ -137,10 +139,10 @@
             <div class="form-layout">
               <div class="custom-control custom-checkbox">
                 <div class="check-form" style="text-align:left;">
-                  <input type="checkbox" class="custom-control-input" id="customCheck1">
-                  <label class="custom-control-label" for="customCheck1" style="text-align:left; margin-left:13px;">
-                    개인정보 처리지침에 동의합니다.
-                  </label>
+                  <div class="custom-control custom-checkbox custom-control-inline">
+                    <input name="check2" type="checkbox" class="custom-control-input" id="defaultInline2">
+                    <label class="custom-control-label" for="defaultInline2">개인정보 처리지침에 동의합니다.</label>
+                  </div>
                 </div>
               </div>
             </div>
@@ -171,15 +173,17 @@
             <div class="form-layout">
               <div class="custom-control custom-checkbox">
                 <div class="check-form" style="text-align:left;">
-                  <input type="checkbox" class="custom-control-input" id="customCheck1">
-                  <label class="custom-control-label" for="customCheck1" style="text-align:left; margin-left:13px;">
-                    이메일 무단 수집 거부 안내에 동의합니다.
-                  </label>
+                  <div class="custom-control custom-checkbox custom-control-inline">
+                    <input name="check3" type="checkbox" class="custom-control-input" id="defaultInline3">
+                    <label class="custom-control-label" for="defaultInline3">이메일 무단 수집 거부 안내에 동의합니다.</label>
+                  </div>
                 </div>
               </div>
             </div>
-
-            <button type="button" class="submit-button">다음 단계 &gt;</button>
+            <div class="warning-box" style="color:red; font-size:14px; display:none;">
+              모두 동의하지 않으면 넘어갈 수 없슴
+            </div>
+            <button type="button" class="next-button">다음 단계</button>
           </div>
         </div>
       </div>

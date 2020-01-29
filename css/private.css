@@ -112,32 +112,7 @@ header .container .text-font {
   margin-bottom:10px;
 }
 
-.input-form th {
-  background:#f8f9fa !important;
-  font-size: 17px;
-  font-weight: 600 !important;
-  width: 180px;
-  height: 60px;
-  text-align: left;
-  vertical-align: middle;
-}
-
-.input-form .red-star {
-  color:red !important;
-  padding-right:4px;
-}
-
-.input-form td {
-  padding-left: 22px;
-  text-align: left;
-  vertical-align: middle;
-}
-
-.input-form .post-margin {
-  margin: 6px;
-}
-
-.input-form .submit-button {
+.input-form .next-button {
   background:#1E90FF;
   width:210px;
   height:70px;
