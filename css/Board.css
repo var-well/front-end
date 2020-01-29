@@ -1,0 +1,128 @@
+.container .nav-title {
+  font-size: 30px;
+  padding-right: 24px;
+}
+.poo-layout {
+	margin-top: 15px;
+	width: 81%;
+	max-width: 1110px;
+	min-width: 470px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+.sidenav {
+  height: 100%;
+  width: 11.714%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#header, #nav, #section, #footer {
+	display:block;
+    width:100%;
+    margin:4px;
+    padding:4px;
+    background-color:#ddd;
+    text-align:center;
+    }
+#section {
+    float:left;
+    width:30%;
+    height:
+    60px;
+    }
+#footer {
+      overflow:hidden;
+    }
+.notice-title {
+	color: da;
+}
+.section .copy-right {
+    padding : 15px 0;
+    border-top : 1px solid #eee;
+    color : #b2b2b2;
+    display: block;
+    padding-left: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+.pos-bt {
+    margin-top: 20px;
+    margin-right: 6%;
+    position: absolute;
+    right: 50px;
+}
+.copy-right{
+    position: absolute;
+    bottom: 10px;
+}
+.pagination {
+    display: block;
+    text-align: center;
+}
+.pagination > li > a {
+    float: none;
+    margin-left: -5px;
+}
+.board-aaa {
+    margin: 10px 10%;
+    text-align: center;
+    font-family: Consolas, monospace;
+    font-style: italic;
+    font-size: 30px;
+    border-bottom: 5px solid #333;
+}
+.board-bbb {
+    margin: 10px 20%;
+    text-align: center;
+    font-family: sans-serif, monospace;
+    font-style: italic;
+    font-size: 13px;
+    border: 2px solid #333;
+    padding: 50px;
+}
+.searching-box {
+
+}
+
+.list_content {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.input { 
+    position: relative; 
+} 
+.input .eyes {
+    position: absolute; top: 0; bottom: 0; right: 0; margin: auto 2px; height: 30px; font-size: 22px; cursor: pointer; 
+}
+.pull-right {
+    float: right;
+}
+.btn-info {
+    margin left: 10%;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1, maximum-scale=2, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Board-write</title>
+   
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link rel="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="css/Board.css">
+</head>
+      <nav>
+          <div class="sidenav">
+            <a href="Notice-List.html">공지사항</a>
+            <a href="Board.html">질문 리스트</a>
+            <a href="Board-write.html">질문 작성</a>
+          </div>    
+      </nav>
+<body class="main" style="background: #f8f9fa;">
+	<div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+             <a class="navbar-brand nav-title" href="#">Var-Well</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link text-font" href="#">소개</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-font" href="#">신청하기</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-font" href="#">신청확인</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-font" href="#">QnA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-font" href="#">마이페이지</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="main">
+    	<div class="content">
+    		<div class="board-aaa">
+    			<span>질문 작성</span>
+    		</div>
+    	</div>
+    	<form class="list_content form-group" method="POST" action="">
+    		<div>
+    			<input class="form-control" type="text" placeholder="제목을 입력하시오">
+    		</div>
+    		<div>
+    			<div style="margin-top: 10px">
+    				  <input type="radio" name="gener" checked="checked" /> <span class="up">공개</span>&nbsp;&nbsp; <input type="radio" name="gener"/> <span class="up">비공개</span>
+    			</div>
+    			<input class="form-control" type="password" id="password" maxlength='5'placeholder="암호를 입력하시오" style="margin-top: 10px">
+    				<div class="eyes">
+    					<i class="fa fa-eye fa-lg"></i>
+    				</div>
+    		</div>
+    		<hr>
+    		<div>
+    			<textarea class="form-control" placeholder="내용을 입력하시오" rows="10"></textarea>
+    		</div>
+    	</form>
+    		
+    	</div>
+    <div class="form-group">
+                <div class="col-sm-12 text-center">
+                    <a href="javascript:history.back()" class="btn btn-danger">취소</a>
+                    <button type="submit" class="btn btn-success" onclick="submitContents(this)">작성완료</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+    <div>
+      	<footer class="section">
+    		<div class="copy-right">
+     		 0teamvarwell@gmail.com | Copyright © Var-Well. All Rights Reserved.
+    		</div>
+  		</footer>
+  	</div>
+	
+</body>
