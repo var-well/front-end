@@ -47,7 +47,7 @@ header .container .text-font {
   border-bottom: solid;
   border-width: thin;
   padding: 16px;
-  margin: 16px;
+  margin: 16px 0px 16px 0px;
 }
 
 .section .container .top-info {
@@ -130,6 +130,19 @@ display: inline-block;
   border:none;
   color:white;
   margin-bottom:24px;
+}
+
+.input-form .withdrawal-button {
+  background:white;
+  width:210px;
+  height:70px;
+  font-size:20px;
+  text-align:center;
+  font-weight:800;
+  border:none;
+  color:black;
+  margin:0px 0px 0px 12px;
+  border: 1px solid gray;
 }
 
 /* Section end */

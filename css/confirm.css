@@ -47,7 +47,7 @@ header .container .text-font {
   border-bottom: solid;
   border-width: thin;
   padding: 16px;
-  margin: 16px;
+  margin: 16px 0px 16px 0px;
 }
 
 .section .container .top-info {

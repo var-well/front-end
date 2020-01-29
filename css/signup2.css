@@ -51,11 +51,8 @@ header .container .text-font {
 }
 
 .section .container .top-info {
-  background-image: url(../images/banner.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   text-align: center;
-  padding: 40px;
+  padding: 20px;
 }
 
 .top-info p {
